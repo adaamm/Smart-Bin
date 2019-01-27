@@ -6,25 +6,27 @@ import os
 import RPi.GPIO as GPIO
 import time
 
+result = 0;
+type_garbage = 0 ; 
 
 #Using the IBM API 
 visual_recognition = VisualRecognitionV3(
     version='{2018-03-19}', #date of last version
-    iam_apikey='instertapikeyhere' #our Key
+    iam_apikey='56-JCITaJsCJJ9B0aF80K5gliWY9MFcGH1HDGyHeZdcV' #our Key
 )
 
 os.system("fswebcam image.jpg") #Triggering the camera
 
 visual_recognition = VisualRecognitionV3(
     '2018-03-19',
-    iam_apikey='') #API Key on IBM Watson
+    iam_apikey='56-JCITaJsCJJ9B0aF80K5gliWY9MFcGH1HDGyHeZdcV') #API Key on IBM Watson
 
 #Checking the file
 with open('./image.jpg', 'rb') as images_file: 
     classes = visual_recognition.classify(
         images_file,
         threshold='0.6',
-    classifier_ids='DefaultCustomModel_117701744').get_result()
+    classifier_ids='DefaultCustomModel_496685283').get_result()
 #print(json.dumps(classes, indent=2))
 
 #word to look for
@@ -41,13 +43,13 @@ with open("waste.txt") as openfile:
                   print(result)
                  #just to test what is inside of resut print(result)
 
-if result == "cardboard" || result == "paper":
+if result == "cardboard" or result == "paper":
     type_garbage = 0
-elif result == "plastic" || result == "metal":
+elif result == "plastic" or result == "metal":
     type_garbage = 1
 elif result == "glass":
     type_garbage = 2
-else type_garbage == 3 #assume trash, has to be
+else: type_garbage == 3 #assume trash, has to be
 
 
 # The issue with 4 and 11 for dumper is that it will hit the ramp if we allow it to go all the way left or right (perpendicular)
