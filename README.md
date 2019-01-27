@@ -1,5 +1,6 @@
 # Smart-Bin
 CONUHACKS_2019 - 
+Smart Trash bin uses the Watson Api with a Raspberry Pi and a Camera to sort the trash as it is being throwned. 
 Using the Watson API
 USe instructions on IBM Watson : 
 First of all registe and download cloud, follow the instructions. 
