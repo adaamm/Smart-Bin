@@ -10,4 +10,4 @@ https://cloud.ibm.com/apidocs/visual-recognition?language=python#classify-images
 
 SmarTrash.py is a merge of every other code for easier implementation on Raspberry Pi.
 
-![alt text]()
+![alt text](https://github.com/adaamm/Smart-Bin/blob/master/smartBinCircuit.png)
