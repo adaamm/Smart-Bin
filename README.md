@@ -29,4 +29,4 @@ The motion
 
 ![alt text](https://github.com/adaamm/Smart-Bin/blob/master/smartBinCircuit.png)
 
-[![IMAGE ALT TEXT HERE](https://github.com/adaamm/Smart-Bin/blob/master/smartBinCircuit.png)](https://www.youtube.com/watch?v=2YGlFAdJA10&feature=youtu.be)
+[![IMAGE ALT TEXT HERE](https://github.com/adaamm/Smart-Bin/blob/master/Cattura.JPG)](https://www.youtube.com/watch?v=2YGlFAdJA10&feature=youtu.be)
