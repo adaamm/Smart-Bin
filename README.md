@@ -1,6 +1,9 @@
 ## CONUHACKS 2019
 # SmartTrash 
 
+[![IMAGE ALT TEXT HERE](https://github.com/adaamm/Smart-Bin/blob/master/Cattura.JPG)](https://www.youtube.com/watch?v=2YGlFAdJA10&feature=youtu.be)
+
+
 SmarTrash is an automated sorting trash can that analyses the waste thrown into it and disposes of it in the adequate waste collector (Cardboard, Glassm Metal/Plastic, general waste). The analysis is done using IBM Watson’s Visual Recognition API with a custom model trained with roughly 2500 pictures of the different types of waste. A Raspberry Pi is used with a webcam to take a picture of the waste that is then sent to Watson which in return sends its prediction on the category of garbage. The waste is then dropped into the appropriate contained with the use of a mechanical arm controlled by 2 servos. 
 
 Files Description: 
@@ -29,4 +32,3 @@ The motion
 
 ![alt text](https://github.com/adaamm/Smart-Bin/blob/master/smartBinCircuit.png)
 
-[![IMAGE ALT TEXT HERE](https://github.com/adaamm/Smart-Bin/blob/master/Cattura.JPG)](https://www.youtube.com/watch?v=2YGlFAdJA10&feature=youtu.be)
